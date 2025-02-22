@@ -3,7 +3,7 @@ name: Echo Message and Slack Notification
 on:
   push:
     branches:
-      - eks-test1
+      - main
 
 jobs:
   echo-and-notify:
