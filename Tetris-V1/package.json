@@ -18,6 +18,12 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "jest": {
+    "collectCoverage": true,
+    "coverageDirectory": "coverage",
+    "coverageReporters": ["lcov", "text", "cobertura"],
+    "testEnvironment": "jsdom"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
